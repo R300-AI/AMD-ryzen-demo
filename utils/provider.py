@@ -8,14 +8,14 @@ def CPUExecutionProvider(onnx_model_path):
         sess_options=onnxruntime.SessionOptions(),
     )
 
-def iGPUExecutionProvider(onnx_model_path):
+def DmlExecutionProvider(onnx_model_path):
     return onnxruntime.InferenceSession(
         onnx_model_path,
         providers = ['DmlExecutionProvider'],
         provider_options = [{"device_id": "0"}]
     )
 
-def NPUExecutionProvicer(onnx_model_path):
+def VitisAIExecutionProvider(onnx_model_path):
     command = r'pnputil /enum-devices /bus PCI /deviceids '
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()

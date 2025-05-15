@@ -1,2 +1,4 @@
 /models/*
 !/models/yolo11n.onnx
+!/models/yolov8n.onnx
+!/models/resnet50.onnx
