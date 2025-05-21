@@ -164,4 +164,4 @@ AMD LLM Toolkit 提供完整的本地大型語言模型 (LLM) 推論解決方案
 - [GAIA 安裝說明](https://github.com/amd/gaia)
 - [Lemonade 安裝說明](https://github.com/lemonade-sdk/lemonade/blob/main/docs/README.md)
 
-> **注意**：安裝 GAIA 時會自動包含 Lemonade；Lemonade 也可獨立安裝或搭配 GAIA 使用。
+> **注意**：安裝 GAIA 時會自動包含 Lemonade；Lemonade 也可獨立安裝使用。
