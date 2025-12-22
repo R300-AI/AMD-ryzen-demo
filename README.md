@@ -16,7 +16,7 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 ### Windows Installation
 
-1. 下載並安裝舊版[Visual Studio 2022](https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe)及**使用C++的桌面開發**元件
+1. 下載並安裝舊版[Visual Studio 2022](https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe)及**"使用C++的桌面開發"**元件
   
 2. 下載並安裝[cmake x64 Installer](https://cmake.org/download/)
 
