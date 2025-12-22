@@ -20,7 +20,7 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
   
 2. 下載並安裝[cmake x64 Installer](https://cmake.org/download/)
 
-2. 安裝Ryzen AI `Radeon iGPU` 所需的相依套件。
+2. 安裝 `ryzen-ai` 所需的相依套件。
 ```bash
 pip install -r requirements.txt
 ```
