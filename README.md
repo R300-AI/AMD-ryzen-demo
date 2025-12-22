@@ -22,10 +22,10 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 3. 下載並安裝[NPU driver](https://ryzenai.docs.amd.com/en/latest/inst.html)、[Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/inst.html)
 
-4. 安裝 `ryzen-ai` 所需的相依套件。
-```bash
-pip install -r requirements.txt
-```
+4. 安裝 `ryzen-ai` 所需的相依套件
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ## 將Ryzen AI配置為工作站
 
